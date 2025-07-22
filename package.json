@@ -1,0 +1,28 @@
+{
+  "name": "air-pollution-vibe-dapp",
+  "version": "1.0.0",
+  "description": "DApp for checking air pollution and distributing VIBE tokens",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network monad-testnet"
+  },
+  "dependencies": {
+    "@primuslabs/zktls-js-sdk": "latest",
+    "ethers": "^6.13.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "hardhat": "^2.26.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2"
+  }
+}
